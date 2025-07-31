@@ -1,0 +1,6 @@
+<select name="%%itemName%%" class="form-control" %%required%%>
+<option value="" {{ !isset($data->%%itemName%%) ? 'selected' : '' }}>Please Select</option>
+    @foreach (json_decode('%%options%%', true) as $optionKey => $optionValue)
+        <option value="{{ $optionKey }}" {{ (isset($data->%%itemName%%) && $data->%%itemName%% == $optionKey) ? 'selected' : ''}}> {{ $optionValue }} </option>
+    @endforeach
+</select>
