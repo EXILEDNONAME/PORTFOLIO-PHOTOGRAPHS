@@ -3,7 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () { return view('pages.frontend.index'); });
+Route::get('/', function () { return view('pages.frontend.demo-1.index'); });
 
 require __DIR__.'/auth.php';
 require __DIR__.'/backend/dashboard.php';
