@@ -13,8 +13,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/frontend/errors/css/animate.css">
-  <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/frontend/errors/css/stylesheet.css">
+  <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/page-errors/css/animate.css">
+  <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/page-errors/css/stylesheet.css">
 </head>
 <body>
   <div class="wrapper wow">
@@ -29,7 +29,7 @@
         <a href="{{ URL::Previous() }}" class="le-btn" > GO BACK </a>
       </div>
     </center>
-    <div id="texture" class="bg-image"  data-bg-image="{{ env('APP_URL') }}/assets/frontend/errors/images/texture.png" ></div>
+    <div id="texture" class="bg-image"  data-bg-image="{{ env('APP_URL') }}/assets/page-errors/images/texture.png" ></div>
     <div id="hole" class="wow bounceInUp" data-wow-delay="3s"></div>
     <div id="moon" class="wow bounceInUp" data-wow-delay="2s"></div>
     <div id="hand" class="wow bounceInUp" data-wow-delay="3.5s">
@@ -42,12 +42,12 @@
   </div>
 
   <a class="goto-top" href="#gotop"></a>
-  <script src="{{ env('APP_URL') }}/assets/frontend/errors/js/jquery-1.9.0.min.js"></script>
-  <script src="{{ env('APP_URL') }}/assets/frontend/errors/js/jquery-migrate-1.4.1.min.js"></script>
-  <script type="text/javascript" src="{{ env('APP_URL') }}/assets/frontend/errors/js/plax.js"></script>
-  <script type="text/javascript" src="{{ env('APP_URL') }}/assets/frontend/errors/js/wow.min.js"></script>
-  <script type="text/javascript" src="{{ env('APP_URL') }}/assets/frontend/errors/js/fontsmoothie.min.js"></script>
-  <script type="text/javascript" src="{{ env('APP_URL') }}/assets/frontend/errors/js/jquery.spritely.js"></script>
-  <script type="text/javascript" src="{{ env('APP_URL') }}/assets/frontend/errors/js/script.js"></script>
+  <script src="{{ env('APP_URL') }}/assets/page-errors/js/jquery-1.9.0.min.js"></script>
+  <script src="{{ env('APP_URL') }}/assets/page-errors/js/jquery-migrate-1.4.1.min.js"></script>
+  <script type="text/javascript" src="{{ env('APP_URL') }}/assets/page-errors/js/plax.js"></script>
+  <script type="text/javascript" src="{{ env('APP_URL') }}/assets/page-errors/js/wow.min.js"></script>
+  <script type="text/javascript" src="{{ env('APP_URL') }}/assets/page-errors/js/fontsmoothie.min.js"></script>
+  <script type="text/javascript" src="{{ env('APP_URL') }}/assets/page-errors/js/jquery.spritely.js"></script>
+  <script type="text/javascript" src="{{ env('APP_URL') }}/assets/page-errors/js/script.js"></script>
 </body>
 </html>

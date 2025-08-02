@@ -5,8 +5,8 @@ php artisan crud:generate Posts --fields_from_file="./resources/cruds/sample.jso
 
 # MAIN DEMO
 # DEMO 1 - PHOTOGRAPH
-# DEMO 2 - CONTRACTOR AND CONSULTAN
-# DEMO 3 - COMMUNITY
+# DEMO 2 - DIGITAL AGENCY
+# DEMO 3 - TRIP AND ADVENTURE
 # DEMO 4 - COFFEE SHOP
 # DEMO 5 - LAUNDRY
 # DEMO 6 - MANAGEMENT ASSETS
